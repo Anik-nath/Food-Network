@@ -1,36 +1,124 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
-#home{
-    padding: 40px;
+h1 {
+    font-size: 52px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #525151;
 }
-.food-container{
+
+h2{
+    font-size: 38px;
+    font-weight: 900;
+    color: #525151;
+}
+h3{
+    font-size: 28px;
+    font-weight: 900;
+}
+.food-container {
     display: flex;
 }
-.half-part{
+
+.half-part {
     width: 50%;
+    padding: 5%;
 }
-.left-part{
+
+.left-part {
     padding-top: 70px;
 }
-.half-part h1{
-    font-size: 45px;
-}
-.half-part p{
+
+.half-part p {
     padding-bottom: 30px;
+    font-size: 20px;
+    color: dimgrey;
 }
-.skip{
-    color: #fb48c0;
+
+span {
+    color: #f30dc1;
 }
-.image{
-    width: 90%;
-    margin-top: -20px;
+
+.image {
+    width: 100%;
 }
-.button{
+.image2{
+    width: 60%;
+    margin-left: 80px;
+}
+
+.button {
     text-decoration: none;
-    background-color: #fb48c0;
+    background: linear-gradient(to left,#a404c7, #e71bba);
     color: #fff;
-    padding: 12px 25px;
-    border-radius: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 18px;
+}
+#about{
+    background: url('images/Frame\ 59.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about .half-part{
+    padding-bottom: 0;
+}
+#recipies{
+    padding: 20px 0px;
+}
+
+.recipies-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.card-container{
+    display: flex;
+    padding: 20px 40px;
+}
+.food-card{
+    width: 30%;
+    box-shadow: 0px 2px 16px 0px #acacac;
+    margin: 25px;
+    border-radius: 15px;
+}
+.food-card-body{
+    padding: 20px;
+}
+.card-image{
+    width: 100%;
+}
+#followers{
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0px 2px 16px 0px #acacac;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+}
+.follow-card{
+    width: 30%;
+    padding: 0px 10%;
+}
+.follow-card h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #010116;
+    color: #ffffffda;
+}
+footer h2{
+    text-transform: uppercase;
+    color: dimgrey;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
 }
