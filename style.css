@@ -1,3 +1,36 @@
-h1{
-    color: red;
+body{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    padding: 40px;
+}
+.food-container{
+    display: flex;
+}
+.half-part{
+    width: 50%;
+}
+.left-part{
+    padding-top: 70px;
+}
+.half-part h1{
+    font-size: 45px;
+}
+.half-part p{
+    padding-bottom: 30px;
+}
+.skip{
+    color: #fb48c0;
+}
+.image{
+    width: 90%;
+    margin-top: -20px;
+}
+.button{
+    text-decoration: none;
+    background-color: #fb48c0;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 20px;
 }
