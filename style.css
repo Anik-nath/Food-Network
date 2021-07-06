@@ -122,3 +122,33 @@ footer h2{
     font-size: 25px;
     font-weight: 700;
 }
+#chef{
+    background: url('images/Frame\ 58.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.chef-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.chef-card{
+    width: 30%;
+    padding: 50px 10%;
+    text-align: center;
+}
+.chef-card img{
+    width: 100%;
+    border: 1px solid #dbcacc;
+    border-radius: 5px;
+}
+.gallery-case{
+    width: 50%;
+    padding: 15px 0px;
+    text-align: center;
+}
+.gallery-image{
+    width: 90%;
+}
+/*----------------------- */
